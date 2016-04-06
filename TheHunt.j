@@ -1,10 +1,13 @@
 ;
 ; Cliff Chandler
-; CSc 3210 Homework #4
-; Account: a321006
-; Due date: 2 Dec 2015
+; 
+; A game written in assembly for the JVM
+;
+; The objective is to find the monster without dieing
+; and shoot an arrow into the room with the monster
+;
 
-.class public hmwk4
+.class public TheHunt
 .super java/lang/Object
   .field private static final rows I = 20
   .field private static final columns I = 20
